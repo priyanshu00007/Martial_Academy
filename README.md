@@ -1,133 +1,125 @@
-Here's the complete `README.md` code for your project:  
+# Martial Academy 🥋
 
-```markdown
-# Martial Academy  
+![GitHub stars](https://img.shields.io/github/stars/priyanshu00007/Martial_Academy?style=social)
+![GitHub forks](https://img.shields.io/github/forks/priyanshu00007/Martial_Academy?style=social)
+![GitHub issues](https://img.shields.io/github/issues/priyanshu00007/Martial_Academy)
+![GitHub license](https://img.shields.io/github/license/priyanshu00007/Martial_Academy)
 
-Martial Academy is a web platform dedicated to facilitating the learning and teaching of martial arts. The platform bridges the gap between students and instructors by providing a comprehensive online space for course management, community engagement, and skill development.  
+Martial Academy is a web platform dedicated to facilitating the learning and teaching of martial arts. The platform bridges the gap between students and instructors by providing a comprehensive online solution.
 
-## Table of Contents  
-- [Features](#features)  
-- [Technologies Used](#technologies-used)  
-- [Setup Instructions](#setup-instructions)  
-- [Usage](#usage)  
-- [Screenshots](#screenshots)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+## Table of Contents 📑
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Features  
-- **User Registration and Authentication**: Secure login and signup for students and instructors using JSON Web Tokens (JWT).  
-- **Course Management**: Create, update, and manage martial arts courses with ease.  
-- **Progress Tracking**: Monitor student progress with an intuitive dashboard.  
-- **Community Engagement**: Interactive forums for discussions and resource sharing.  
-- **Responsive Design**: Fully functional across desktop and mobile devices.  
+## Features ✨
+- **User Registration and Authentication**: Secure login and signup for students and instructors using JSON Web Tokens (JWT).
+- **Course Management**: Create, update, and manage martial arts courses with ease.
+- **Progress Tracking**: Monitor student progress with an intuitive dashboard.
+- **Community Engagement**: Interactive forums for discussions and resource sharing.
+- **Responsive Design**: Fully functional across desktop and mobile devices.
 
-## Technologies Used  
-- **Frontend**: React.js with Material-UI for styling and responsiveness.  
-- **Backend**: Node.js and Express.js for server-side logic.  
-- **Database**: MongoDB with Mongoose for data management.  
-- **Authentication**: JSON Web Tokens (JWT) for secure user sessions.  
-- **Deployment**: Docker and Nginx for containerization and hosting.  
+## Technologies Used 🛠️
+- **Frontend**: React.js with Material-UI for styling and responsiveness.
+- **Backend**: Node.js and Express.js for server-side logic.
+- **Database**: MongoDB with Mongoose for data management.
+- **Authentication**: JSON Web Tokens (JWT) for secure user sessions.
+- **Deployment**: Docker and Nginx for containerization and hosting.
 
-## Setup Instructions  
+## Setup Instructions 🛠️
 
-Follow these steps to set up Martial Academy locally:  
+Follow these steps to set up Martial Academy locally:
 
-1. **Clone the Repository**:  
-   ```bash
+1. **Clone the Repository**:
+   ```
    git clone https://github.com/priyanshu00007/Martial_Academy.git
    cd Martial_Academy
-   ```  
+   ```
+2.  Install Dependencies:
+```
+npm install
+```
+3. Set Up Environment Variables:
+Create a .env file in the root directory and add the following:
+```
+DATABASE_URL=mongodb://localhost:27017/martial_academy
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+4. Run the Application:
+```
+npm install
+The application will run on http://localhost:5000.
 
-2. **Install Dependencies**:  
-   ```bash
-   npm install
-   ```  
+```
+5.Run in Development Mode:
+For development, use the following command:
+```
+npm run dev
+```
 
-3. **Set Up Environment Variables**:  
-   Create a `.env` file in the root directory and add the following:  
-   ```env
-   DATABASE_URL=mongodb://localhost:27017/martial_academy  
-   JWT_SECRET=your_secret_key  
-   PORT=5000  
-   ```  
+Usage 📖
+Open the application in your browser at http://localhost:5000.
+Register as a new user or log in with existing credentials.
+Navigate to the Courses section to explore available martial arts classes.
+Instructors can create courses via the instructor dashboard.
+Students can track their progress and participate in forums.
 
-4. **Run the Application**:  
-   ```bash
-   npm start
-   ```  
-   The application will run on `http://localhost:5000`.  
 
-5. **Run in Development Mode**:  
-   For development, use the following command:  
-   ```bash
-   npm run dev
-   ```  
+Screenshots 📸
+Home Page
+Instructor Dashboard
+Forum Interaction
+Contributing 🤝
+We welcome contributions from the community to make Martial Academy even better!
 
-## Usage  
-1. Open the application in your browser at `http://localhost:5000`.  
-2. Register as a new user or log in with existing credentials.  
-3. Navigate to the Courses section to explore available martial arts classes.  
-4. Instructors can create courses via the instructor dashboard.  
-5. Students can track their progress and participate in forums.  
+1. Fork the Repository:
+Click on the Fork button on the top right of the repository page.
 
-## Screenshots  
+2. Clone the Forked Repository:
+```
+git clone https://github.com/your-username/Martial_Academy.git
+````
+3. Create a New Branch:
+```
+git checkout -b feature/your-feature-name
+```
+4.Make Changes:
+Add your feature or fix issues in the code.
 
-### Home Page  
-![Home Page](./screenshots/homepage.png)  
+5. Commit Changes:
+ ```
+git commit -m "Add: Feature description"
+```
+6. Push to Your Fork:
+```
+git push origin feature/your-feature-name
+```
+7.Create a Pull Request:
+Open a pull request to merge your changes into the main repository.
 
-### Instructor Dashboard  
-![Instructor Dashboard](./screenshots/instructor-dashboard.png)  
+License 📜
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Forum Interaction  
-![Forum Page](./screenshots/forum.png)  
+Contact ✉️
+For any questions or feedback, feel free to reach out:
 
-## Contributing  
+GitHub: priyanshu00007
+Email: priyanshu@example.com
+Feel free to suggest additional features or improvements to the project. Happy coding! 🚀
 
-We welcome contributions from the community to make Martial Academy even better!  
+```
+To contribute towards it, you can:
+- Fork the repository.
+- Create a new feature branch.
+- Make your changes and improvements.
+- Submit a pull request for review.
 
-1. **Fork the Repository**:  
-   Click on the Fork button on the top right of the repository page.  
+You can view the updated README [here](https://github.com/priyanshu00007/Martial_Academy/blob/986f03042fb5e5619724066465f60a42f18846c3/README.md).
+```
 
-2. **Clone the Forked Repository**:  
-   ```bash
-   git clone https://github.com/your-username/Martial_Academy.git
-   ```  
-
-3. **Create a New Branch**:  
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```  
-
-4. **Make Changes**:  
-   Add your feature or fix issues in the code.  
-
-5. **Commit Changes**:  
-   ```bash
-   git commit -m "Add: Feature description"
-   ```  
-
-6. **Push to Your Fork**:  
-   ```bash
-   git push origin feature/your-feature-name
-   ```  
-
-7. **Create a Pull Request**:  
-   Open a pull request to merge your changes into the main repository.  
-
-## License  
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.  
-
-## Contact  
-
-For any questions or feedback, feel free to reach out:  
-- **GitHub**: [priyanshu00007](https://github.com/priyanshu00007)  
-- **Email**: priyanshu@example.com  
-
----
-
-Feel free to suggest additional features or improvements to the project. Happy coding!
-```  
-
-Let me know if you need further adjustments!
